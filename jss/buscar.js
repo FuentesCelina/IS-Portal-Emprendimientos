@@ -2,6 +2,7 @@
 const url = 'json/emprendimientos.json';
 const url_colaboradores = 'json/colaboradores.json';
 var ultimoId = 0;
+/*
 document.addEventListener('DOMContentLoaded', function () {
     filtrarJSONEmp("");//se muestran todos
     var buscar = document.getElementById("searchField");
@@ -9,8 +10,15 @@ document.addEventListener('DOMContentLoaded', function () {
         var emp_abuscar = event.target.value;
         filtrarJSONEmp(emp_abuscar.toLowerCase());
     });
-});
+});*/
 
+fetch('https://raw.githubusercontent.com/FuentesCelina/IS-Portal-Emprendimientos/main/json/emprendimientos.json')
+    .then(response => response.json())
+    .then(data => {
+        // Llamar a la función para mostrar los productos
+        crearNuevoEmp(data);
+    })
+    .catch(error => console.error('Error al cargar los productos:', error));
 function filtrarJSONEmp(filtrado) {
     fetch(url)
         .then(function (res) {
