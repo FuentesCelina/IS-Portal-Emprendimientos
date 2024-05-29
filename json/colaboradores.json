@@ -1,0 +1,79 @@
+[
+    {
+        "id":1,
+        "nombre": "Brisa",
+        "telefono":"1123232323",
+        "contacto":"brisa@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":2,
+        "nombre": "Axel",
+        "telefono":"1122334455",
+        "contacto":"axel@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":3,
+        "nombre": "Maria",
+        "telefono":"1199887766",
+        "contacto":"maria@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":4,
+        "nombre": "Francisco",
+        "telefono":"1122343443",
+        "contacto":"fran@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":5,
+        "nombre": "Carla",
+        "telefono":"1123932323",
+        "contacto":"carla@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":6,
+        "nombre": "Pedro",
+        "telefono":"1135847398",
+        "contacto":"pedrodfer@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":7,
+        "nombre": "José",
+        "telefono":"1184746254",
+        "contacto":"josegonzalez@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":8,
+        "nombre": "Lautaro",
+        "telefono":"1112658475",
+        "contacto":"lautyrod@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":9,
+        "nombre": "Elena",
+        "telefono":"1196847364",
+        "contacto":"helen@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":10,
+        "nombre": "Karina",
+        "telefono":"1187653451",
+        "contacto":"kari@gmail.com",
+        "direccion":""
+    },
+    {
+        "id":11,
+        "nombre": "Cecilia",
+        "telefono":"1136457665",
+        "contacto":"ceci@gmail.com",
+        "direccion":""
+    }
+]

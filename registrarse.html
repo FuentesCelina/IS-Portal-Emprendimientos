@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse PM </title>
+    <link rel="stylesheet" href="css/registrarse.css">
+</head>
+
+<body>
+    <div class="barra">
+        <h1 class="textoCentrado">Registrarse</h1>
+    </div>
+    <section>
+        <form id="formulario">
+
+            <h1 for="nombre">Datos personales</h1>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre_colaborador" name="nombre" required></textarea>
+
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="Telefono" required></textarea>
+
+            <label for="correo">Correo:</label>
+            <input type="text" id="contacto_colaborador" name="Correo" required></textarea>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" placeholder="ejemplo: Calle falsa 123, Municipio" name="direccion"
+                required>
+            <button type="button" onclick="normalizarDireccion()">Buscar dirección</button>
+
+            <div id="resultadosDireccion"></div>
+
+
+
+            <h1 for="nombre">Datos emprendimientos:</h1>
+
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre_emprendimiento" name="nombre" required></textarea>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea type="text" id="descripcion" name="descripcion" required></textarea>
+
+            <label for="contacto">Contacto:</label>
+            <input type="text" id="contacto_emprendimiento" name="contacto" required></textarea>
+
+            <label for="redSocial">Red social:</label>
+            <input type="text" id="red_social" name="redSocial" required></textarea>
+
+            <label for="formaDePago">Forma de pago:</label>
+            <input type="text" id="forma_de_pago" name="FormaDePago" required></textarea>
+
+            <label for="zonaRefenrcia">Zona de referencia:</label>
+            <input type="text" id="zonaReferencia" name="zonaReferencia" required></textarea>
+            <!--<button type="submit">Normalizar direccion</button>ACA CREO QUE NO ES NECESARIO NORMALIZAR-->
+
+
+            <label for="rubro">Rubro:</label>
+            <select id="categoria" name="categoria" required>
+                <option value="electronica">Electrónica</option>
+                <option value="ropa">Ropa</option>
+                <option value="alimentacion">Alimentación</option>
+                <option value="hogar">Hogar</option>
+                <option value="libros">Libros</option>
+                <option value="juguetes">Juguetes</option>
+                <option value="belleza">Belleza</option>
+                <option value="deportes">Deportes</option>
+                <option value="muebles">Muebles</option>
+                <option value="herramientas">Herramientas</option>
+                <option value="transporte">Transporte</option>
+                <option value="inmobiliario">Inmobiliario</option>
+                <option value="servdigitales">Servicios digitales</option>
+                <option value="repuestos">Repuestos</option>
+                <option value="mascotas">Mascotas</option>
+            </select>
+
+            <button type="submit">Guardar Datos </button>
+            <button id="cancelarRegistro" type="submit">Cancelar registro </button>
+
+
+        </form>
+    </section>
+
+    <script src="jss/normalizarDireccion.js"></script>
+    <script src="jss/registrarse.js"></script>
+
+</body>
+
+</html>

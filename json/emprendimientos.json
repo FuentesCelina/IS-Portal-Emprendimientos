@@ -1,0 +1,233 @@
+[
+    {
+        "id_propietario": 1,
+        "nombre": "Briisa Indumentaria",
+        "descripcion": "Hola! ¡Tenemos para ofrecerte todo tipo de ropa de la temporada a los mejores precios, te invitamos a conocernos!",
+        "contacto": "briisaInd@gmail.com",
+        "red_social": "",
+        "forma_de_pago": "",
+        "zona_de_referencia": "",
+        "rubro": "indumentaria",
+        "imagen":"logoEmp/0.jpg"
+    },
+    {
+        "id_propietario": 2,
+        "nombre": "Todo Robotica",
+        "descripcion": "¡Somos un negocio de venta de elementos electronicos que sabemos que necesitas para tu hogar!",
+        "contacto": "roboto@gmail.com",
+        "red_social": "",
+        "forma_de_pago": "",
+        "zona_de_referencia": "",
+        "rubro": "Electronica",
+        "imagen":"logoEmp/1.jpg"
+    },
+    {
+        "id_propietario": 3,
+        "nombre": "El Tintero",
+        "descripcion": "Emprendimiento de venta libros, libros de todos los generos nuevo y usados",
+        "contacto": "tinterio@gmail.com",
+        "red_social": "ElTinte",
+        "forma_de_pago": "",
+        "zona_de_referencia": "",
+        "rubro": "Libreria",
+        "imagen":"logoEmp/2.jpg"
+    },
+    {
+        "id_propietario": 4,
+        "nombre": "Los Hermanos",
+        "descripcion": "Venta de embutivos por mayor, todas las calidades que te convienen",
+        "contacto": "0230-33997727",
+        "red_social": "Instagram:@LosHermanos_ok",
+        "forma_de_pago": "",
+        "zona_de_referencia": "",
+        "rubro": "alimentacion",
+        "imagen":"logoEmp/3.jpg"
+    },
+    {
+        "id_propietario": 5,
+        "nombre": "Moon",
+        "descripcion": "Venta de articulos de libreria, sublimaciones y mas...",
+        "contacto": "11233434",
+        "red_social": "Instagram:@moon_sublimaciones",
+        "forma_de_pago": "",
+        "zona_de_referencia": "",
+        "rubro": "Libreria",
+        "imagen":"logoEmp/4.jpg"
+    },
+    {
+        "id_propietario": 6,
+        "nombre": "Panaderia Moreno",
+        "descripcion": "Venta de pan, masas dulces y más",
+        "contacto": "4430291",
+        "red_social": "",
+        "forma_de_pago": "",
+        "zona_de_referencia": "Moreno Centro",
+        "rubro": "alimentacion",
+        "imagen":"logoEmp/5.jpg"
+    },
+    {
+        "id_propietario": 7,
+        "nombre": "Color Humano",
+        "descripcion": "LA MAGIA DE UN LUGAR QUE LO TIENE TODO!!!!! \n Juguetería - Bazar - Regalos.",
+        "contacto": "011 6002-6181",
+        "red_social": "facebook: @ColorHumanoonLINE ",
+        "forma_de_pago": "",
+        "zona_de_referencia": "Moreno Centro",
+        "rubro": "juguetes",
+        "imagen":"logoEmp/6.jpg"
+    },
+    {
+        "id_propietario": 8,
+        "nombre": "La tuerca que te falta",
+        "descripcion": "Venta de herramientas para la contruccion",
+        "contacto": "011 5440-8245",
+        "red_social": "facebook: @laTuercaQueTefalta ",
+        "forma_de_pago": "",
+        "zona_de_referencia": "",
+        "rubro": "herramientas",
+        "imagen":"logoEmp/7.jpg"
+    },
+    {
+        "id_propietario": 9,
+        "nombre": "La casa del deporte",
+        "descripcion": "Todo para todos los deportes",
+        "contacto": "",
+        "red_social": "instagram: @casaDelDeporte ",
+        "forma_de_pago": "",
+        "zona_de_referencia": "San miguel",
+        "rubro": "deporte",
+        "imagen":"logoEmp/8.jpg"
+    },
+    {
+        "id_propietario": 10,
+        "nombre": "TRL",
+        "descripcion": "Transporte y logística",
+        "contacto": "trl@hotmail.com",
+        "red_social": "instagram: @trl ",
+        "forma_de_pago": "Contado",
+        "zona_de_referencia": "",
+        "rubro": "transporte",
+        "imagen":"logoEmp/9.jpg"
+    },
+    {
+        "id_propietario": 11,
+        "nombre": "Vive",
+        "descripcion": "Desarrollos inmobiliarios",
+        "contacto": "vive@hotmail.com",
+        "red_social": "instagram: @vive ",
+        "forma_de_pago": "Tarjeta de crédito",
+        "zona_de_referencia": "Muñiz",
+        "rubro": "inmobiliario",
+        "imagen":"logoEmp/10.jpg"
+    },
+    {
+        "id_propietario": 12,
+        "nombre": "Burrito Company",
+        "descripcion": "Comida mexicana, la mejor!",
+        "contacto": "burrito@hotmail.com",
+        "red_social": "instagram: @bc ",
+        "forma_de_pago": "Tarjeta de crédito, tarjeta de débito",
+        "zona_de_referencia": "San miguel",
+        "rubro": "alimentacion",
+        "imagen":"logoEmp/11.jpg"
+    },
+    {
+        "id_propietario": 13,
+        "nombre": "Mayson´s Barbwr Shop",
+        "descripcion": "Barbería",
+        "contacto": "maysons@hotmail.com",
+        "red_social": "instagram: @barberMayson ",
+        "forma_de_pago": "Tarjeta de crédito, contado",
+        "zona_de_referencia": "Muñiz",
+        "rubro": "belleza",
+        "imagen":"logoEmp/12.jpg"
+    },
+    {
+        "id_propietario": 14,
+        "nombre": "Printing",
+        "descripcion": "Servicio de impresiones digitales",
+        "contacto": "printing@yahoo.com.ar",
+        "red_social": "instagram: @printing ",
+        "forma_de_pago": "Tarjeta de crédito",
+        "zona_de_referencia": "San miguel",
+        "rubro": "servdigitales",
+        "imagen":"logoEmp/13.jpg"
+    },
+    {
+        "id_propietario": 15,
+        "nombre": "Borcelle",
+        "descripcion": "Centro integral de belleza y estética",
+        "contacto": "borcelle@yahoo.com.ar",
+        "red_social": "instagram: @borcelle ",
+        "forma_de_pago": "Contado",
+        "zona_de_referencia": "San miguel",
+        "rubro": "belleza",
+        "imagen":"logoEmp/14.jpg"
+    },
+    {
+        "id_propietario": 16,
+        "nombre": "Sogbu",
+        "descripcion": "Parrilla a las brasas",
+        "contacto": "sogbu@yahoo.com.ar",
+        "red_social": "instagram: @sogbu ",
+        "forma_de_pago": "Contado, tarjetas",
+        "zona_de_referencia": "San miguel",
+        "rubro": "alimentacion",
+        "imagen":"logoEmp/15.jpg"
+    },
+    {
+        "id_propietario": 17,
+        "nombre": "Ricardo Salinas",
+        "descripcion": "Tatuajes artísticos",
+        "contacto": "rs@yahoo.com.ar",
+        "red_social": "instagram: @tatuajesconarte ",
+        "forma_de_pago": "Contado",
+        "zona_de_referencia": "San miguel",
+        "rubro": "belleza",
+        "imagen":"logoEmp/16.jpg"
+    },
+    {
+        "id_propietario": 18,
+        "nombre": "Jaume Capdevilla",
+        "descripcion": "Fotógrafo social, especialidad bodas",
+        "contacto": "jaume@yahoo.com.ar",
+        "red_social": "instagram: @jaumefoto ",
+        "forma_de_pago": "Contado",
+        "zona_de_referencia": "Muñiz",
+        "rubro": "servdigitales",
+        "imagen":"logoEmp/17.jpg"
+    },
+    {
+        "id_propietario": 19,
+        "nombre": "Masa madre",
+        "descripcion": "Panadería, especialidad panes integrales",
+        "contacto": "masamadre@yahoo.com.ar",
+        "red_social": "instagram: @mm ",
+        "forma_de_pago": "transferencia",
+        "zona_de_referencia": "San miguel",
+        "rubro": "alimentacion",
+        "imagen":"logoEmp/18.jpg"
+    },
+    {
+        "id_propietario": 20,
+        "nombre": "Industrias Ariova",
+        "descripcion": "Todo en recambios y repuestos para su moto",
+        "contacto": "ariova@yahoo.com.ar",
+        "red_social": "instagram: @ariova ",
+        "forma_de_pago": "Tarjeta de crédito",
+        "zona_de_referencia": "Los Polvorines",
+        "rubro": "repuestos",
+        "imagen":"logoEmp/19.jpg"
+    },
+    {
+        "id_propietario": 21,
+        "nombre": "Tanka",
+        "descripcion": "Clínica veterinaria",
+        "contacto": "tanka@yahoo.com.ar",
+        "red_social": "instagram: @tanka ",
+        "forma_de_pago": "Tarjeta de crédito, contado",
+        "zona_de_referencia": "San miguel",
+        "rubro": "mascotas",
+        "imagen":"logoEmp/20.jpg"
+    }
+]
