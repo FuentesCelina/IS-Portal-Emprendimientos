@@ -1,4 +1,3 @@
-console.log("asdasdasdas");
 const saveButton = document.getElementById('formulario');
 saveButton.addEventListener('submit',function(event){
     guardarDatos(event);
@@ -24,7 +23,14 @@ function guardarDatos(event){
     var red_social = document.getElementById('red_social').value;
     var forma_de_pago = document.getElementById('forma_de_pago').value;
     var zona_referencia = document.getElementById('zonaReferencia').value;
-    var rubro = document.getElementById('rubro').value;
+    var rubro;
+    var select = document.getElementById('categoria');
+    select.addEventListener('change',
+        function () {
+            var opcion = this.options[select.selectedIndex];
+            rubro = opcion.value;
+            console.log(selectedOption.value + ': ' + selectedOption.text);
+        });
 
     /*Guardando los datos en los json  TODAVIA NO TERMINADO */
     var nuevo_id_colaborador = obtenerNuevoId();
@@ -45,8 +51,17 @@ function guardarDatos(event){
         zona_de_referencia:zona_referencia,
         rubro:rubro
     };
+
+    registrar(nuevo_emprendimiento,nuevo_colaborador);
 }
 
 function obtenerNuevoId(){
-    return darUltimoId;
+    //Deberia retornar el ultimo id guardado de los colaboradores.
+    return 0;
+}
+
+function registrar(emprendimiento,colaborador){
+    //Se muestra un mensaje con los datos gurdados pero:No se guardan los datos...
+    var h3 = document.getElementById("mensaje")
+    h3.textContent = "Datos guardados correctamente..."
 }

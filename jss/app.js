@@ -6,7 +6,6 @@ function crearNuevoEmp(emprendimientos) {
     divs.forEach(function(div) {
         div.remove();
     });
-    var container = document.querySelector('.container_emp');
     for (var i = 0; i < emprendimientos.length; i++) {
         var nuevoDiv = document.createElement('div');
         nuevoDiv.className = "emprendimiento"

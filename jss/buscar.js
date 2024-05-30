@@ -2,7 +2,7 @@ const emprendimientos = [];
 fetch('https://raw.githubusercontent.com/FuentesCelina/IS-Portal-Emprendimientos/main/json/emprendimientos.json')
     .then(response => response.json())
     .then(data => {
-        // Llamar a la función para mostrar los productos
+        // Llamar a la función para mostrar los emprendimientos en pantalla
         crearNuevoEmp(data);
     })
     .catch(error => console.error('Error al cargar los emprendimientos:', error));
@@ -22,7 +22,7 @@ function filtrarJSONEmp(filtrado) {
     fetch('https://raw.githubusercontent.com/FuentesCelina/IS-Portal-Emprendimientos/main/json/emprendimientos.json')
         .then(response => response.json())
         .then(data => {
-            // Llamar a la función para mostrar los productos
+            // Llamar a la función para mostrar los emprendimientos en pantalla
             const emprendimientos=[];
             data.forEach((item) => {
                 if (item.rubro.toLowerCase() === filtrado || filtrado === "") {
