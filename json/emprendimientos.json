@@ -12,7 +12,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 2,
@@ -27,7 +28,8 @@
         "visivilidad_Direccion":true,
         "coordenada_X": -34.522273,
         "cooredena_Y": -58.702222,
-        "Horario": "lunes a viernes de 9 am a 19pm, sabado y domingo cerrado"
+        "Horario": "lunes a viernes de 9 am a 19pm, sabado y domingo cerrado",
+        "destacado":true
     },
     {
         "id_propietario": 3,
@@ -42,7 +44,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 4,
@@ -57,7 +60,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 5,
@@ -72,8 +76,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 6,
@@ -88,8 +92,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 7,
@@ -104,8 +108,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 8,
@@ -120,8 +124,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 9,
@@ -136,8 +140,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 10,
@@ -152,8 +156,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 11,
@@ -168,8 +172,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 12,
@@ -184,8 +188,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 13,
@@ -200,9 +204,8 @@
         "visivilidad_Direccion":true,
         "coordenada_X": -34.523174, 
         "cooredena_Y": -58.702654,
-        "Horario": "martes a domingo de 10 am a 20 pm, lunes cerrado"
-
-
+        "Horario": "martes a domingo de 10 am a 20 pm, lunes cerrado",
+        "destacado":false
     },
     {
         "id_propietario": 14,
@@ -217,8 +220,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 15,
@@ -233,9 +236,8 @@
         "visivilidad_Direccion":true,
         "coordenada_X": -34.522658,
         "cooredena_Y":  -58.702127,
-        "Horario": "lunes a viernes de 9 am a 18 pm, sabado y domingo cerrado"
-
-
+        "Horario": "lunes a viernes de 9 am a 18 pm, sabado y domingo cerrado",
+        "destacado":false
     },
     {
         "id_propietario": 16,
@@ -250,8 +252,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 17,
@@ -266,8 +268,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 18,
@@ -282,8 +284,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":false
     },
     {
         "id_propietario": 19,
@@ -298,8 +300,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 20,
@@ -314,8 +316,8 @@
         "visivilidad_Direccion":true,
         "coordenada_X": -34.519743,
         "cooredena_Y": -58.700427,
-        "Horario": "lunes a vierne de 9 am a 13 pm ~ 15 pm a 18 pm, sabado de 10 am a 14 pm, domingo cerrado"
-
+        "Horario": "lunes a vierne de 9 am a 13 pm ~ 15 pm a 18 pm, sabado de 10 am a 14 pm, domingo cerrado",
+        "destacado":false
     },
     {
         "id_propietario": 21,
@@ -330,8 +332,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     },
     {
         "id_propietario": 22,
@@ -346,8 +348,8 @@
         "visivilidad_Direccion":false,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": ""
-
+        "Horario": "",
+        "destacado":true
     }
     ,
     {
@@ -363,8 +365,8 @@
         "visivilidad_Direccion":true,
         "coordenada_X": 0,
         "cooredena_Y": 0,
-        "Horario": "lunes a viernes de 9 am a 17 pm, sabado y domingo cerrado"
-
+        "Horario": "lunes a viernes de 9 am a 17 pm, sabado y domingo cerrado",
+        "destacado": true
     }
 
 ]

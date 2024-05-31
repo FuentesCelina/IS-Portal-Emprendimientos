@@ -3,7 +3,7 @@ fetch('https://raw.githubusercontent.com/FuentesCelina/IS-Portal-Emprendimientos
     .then(response => response.json())
     .then(data => {
         // Llamar a la función para mostrar los emprendimientos en pantalla
-        crearNuevoEmp(data);
+        ordenarEmprendimientos(data);
     })
     .catch(error => console.error('Error al cargar los emprendimientos:', error));
 var ultimoId = 0;
@@ -26,20 +26,29 @@ function filtrarJSONEmp(filtrado) {
             const emprendimientos=[];
             data.forEach((item) => {
                 if (filtrado === "" || item.nombre.toLowerCase().includes(filtrado) || item.rubro.toLowerCase() === filtrado || item.zona_de_referencia.toLowerCase() === filtrado ) {
-                    let obj = {
-                        nombre: item.nombre,
-                        descripcion: item.descripcion,
-                        contacto: item.contacto,
-                        red_social: item.red_social,
-                        forma_de_pago: item.forma_de_pago,
-                        zona_de_referencia: item.zona_de_referencia,
-                        rubro: item.rubro,
-                        imagen: item.imagen
-                    }
-                    emprendimientos.push(obj);
+                    emprendimientos.push(item);
                 }
             })
-            crearNuevoEmp(emprendimientos);
+            ordenarEmprendimientos(emprendimientos);
         })
         .catch(error => console.error('Error al cargar los emprendimientos:', error));
+}
+
+function ordenarEmprendimientos(data){ //ordena los emprendimientos para que los destacados esten al inicio
+    const emprendimientos = [];
+    data.forEach(element => {
+        emprendimientos.push(element);
+    });
+    emprendimientos.sort((emp1,emp2) =>{
+        if(emp1.destacado && !emp2.destacado){
+            return -1;
+        }
+        else if(!emp1.destacado && emp2.destacado){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    });
+    crearNuevoEmp(emprendimientos);
 }

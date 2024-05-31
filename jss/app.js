@@ -3,28 +3,39 @@ function crearNuevoEmp(emprendimientos) {
     var divs = container.querySelectorAll('div'); // Selecciona todos los divs dentro del contenedor
 
     // Itera sobre cada div y los elimina
-    divs.forEach(function(div) {
+    divs.forEach(function (div) {
         div.remove();
     });
     for (var i = 0; i < emprendimientos.length; i++) {
         var nuevoDiv = document.createElement('div');
-        nuevoDiv.className = "emprendimiento"
-
+        var nuevoBoton = document.createElement('button');
+        if (emprendimientos[i].destacado) {
+            nuevoDiv.className = "emprendimiento_dest";
+            nuevoBoton.className = "button";
+            nuevoBoton.id = "mostrar_dest";
+            nuevoBoton.textContent = "Ver detalle";
+        }
+        else {
+            nuevoDiv.className = "emprendimiento";
+            nuevoBoton.className = "button";
+            nuevoBoton.id = "mostrar";
+            nuevoBoton.textContent = "Ver detalle";
+        }
         var infoDiv = document.createElement('div');
         infoDiv.className = "info";
 
         var nuevoH2 = document.createElement('h2');
         nuevoH2.textContent = emprendimientos[i].nombre;
         nuevoH2.id = "nombre";
-       
+
         var nuevoH31 = document.createElement('h3');
         nuevoH31.textContent = emprendimientos[i].descripcion;
         nuevoH31.id = "descripcion";
-        
+
         var nuevoH32 = document.createElement('h3');
         nuevoH32.textContent = emprendimientos[i].contacto;
         nuevoH32.id = "contacto";
-        
+
         var nuevoH33 = document.createElement('h3');
         nuevoH33.textContent = emprendimientos[i].red_social;
         nuevoH33.id = "red_social";
@@ -33,17 +44,11 @@ function crearNuevoEmp(emprendimientos) {
         nuevoimg.src = emprendimientos[i].imagen;
         nuevoimg.id = "imagen";
 
-
         infoDiv.appendChild(nuevoH2);
         infoDiv.appendChild(nuevoimg);
         infoDiv.appendChild(nuevoH31);
         infoDiv.appendChild(nuevoH32);
         infoDiv.appendChild(nuevoH33);
-        
-        var nuevoBoton = document.createElement('button');
-        nuevoBoton.className = "button";
-        nuevoBoton.id = "mostrar";
-        nuevoBoton.textContent="Ver detalle";
 
         /*Evento del boton para ver mapa */
         nuevoBoton.addEventListener('click', function () {
@@ -78,6 +83,6 @@ function cargarJSONCol() {/*No sé si está bien cargarlos,pero se necesita el u
 
 
 }
-function darUltimoId(){
+function darUltimoId() {
     return ultimoId;
 }
