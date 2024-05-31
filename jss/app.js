@@ -6,7 +6,7 @@ function crearNuevoEmp(emprendimientos) {
     divs.forEach(function (div) {
         div.remove();
     });
-    for (var i = 0; i < emprendimientos.length; i++) {
+    for (let i = 0; i < emprendimientos.length; i++) {
         var nuevoDiv = document.createElement('div');
         var nuevoBoton = document.createElement('button');
         if (emprendimientos[i].destacado) {
@@ -52,6 +52,9 @@ function crearNuevoEmp(emprendimientos) {
 
         /*Evento del boton para ver mapa */
         nuevoBoton.addEventListener('click', function () {
+            localStorage.setItem("latitud", emprendimientos[i].coordenada_X);
+            localStorage.setItem("longitud", emprendimientos[i].coordenada_Y);
+            localStorage.setItem("id_emp",emprendimientos[i].id);
             window.location.href = "leaflet.html";
         });
 
