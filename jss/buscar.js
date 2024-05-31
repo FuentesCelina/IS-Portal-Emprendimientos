@@ -25,7 +25,7 @@ function filtrarJSONEmp(filtrado) {
             // Llamar a la función para mostrar los emprendimientos en pantalla
             const emprendimientos=[];
             data.forEach((item) => {
-                if (item.rubro.toLowerCase() === filtrado || filtrado === "") {
+                if (filtrado === "" || item.nombre.toLowerCase().includes(filtrado) || item.rubro.toLowerCase() === filtrado || item.zona_de_referencia.toLowerCase() === filtrado ) {
                     let obj = {
                         nombre: item.nombre,
                         descripcion: item.descripcion,

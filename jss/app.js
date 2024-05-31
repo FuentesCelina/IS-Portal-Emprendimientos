@@ -43,7 +43,7 @@ function crearNuevoEmp(emprendimientos) {
         var nuevoBoton = document.createElement('button');
         nuevoBoton.className = "button";
         nuevoBoton.id = "mostrar";
-        nuevoBoton.textContent="Ver ubicación";
+        nuevoBoton.textContent="Ver detalle";
 
         /*Evento del boton para ver mapa */
         nuevoBoton.addEventListener('click', function () {
@@ -55,13 +55,6 @@ function crearNuevoEmp(emprendimientos) {
         container.appendChild(nuevoDiv);
     }
 }
-const miBoton = document.getElementById('botonRegistrarse');
-
-// Agregar un event listener para el evento 'click'
-miBoton.addEventListener('click', function() {
-    window.location.href = "registrarse.html"
-});
-
 
 function cargarJSONCol() {/*No sé si está bien cargarlos,pero se necesita el ultimo id */
     fetch(url_colaboradores)

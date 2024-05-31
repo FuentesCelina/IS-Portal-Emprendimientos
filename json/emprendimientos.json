@@ -8,7 +8,11 @@
         "forma_de_pago": "",
         "zona_de_referencia": "",
         "rubro": "indumentaria",
-        "imagen":"logoEmp/0.jpg"
+        "imagen":"logoEmp/0.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
     },
     {
         "id_propietario": 2,
@@ -19,7 +23,11 @@
         "forma_de_pago": "",
         "zona_de_referencia": "",
         "rubro": "Electronica",
-        "imagen":"logoEmp/1.jpg"
+        "imagen":"logoEmp/1.jpg",
+        "visivilidad_Direccion":true,
+        "coordenada_X": -34.522273,
+        "cooredena_Y": -58.702222,
+        "Horario": "lunes a viernes de 9 am a 19pm, sabado y domingo cerrado"
     },
     {
         "id_propietario": 3,
@@ -30,7 +38,11 @@
         "forma_de_pago": "",
         "zona_de_referencia": "",
         "rubro": "Libreria",
-        "imagen":"logoEmp/2.jpg"
+        "imagen":"logoEmp/2.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
     },
     {
         "id_propietario": 4,
@@ -41,7 +53,11 @@
         "forma_de_pago": "",
         "zona_de_referencia": "",
         "rubro": "alimentacion",
-        "imagen":"logoEmp/3.jpg"
+        "imagen":"logoEmp/3.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
     },
     {
         "id_propietario": 5,
@@ -52,7 +68,12 @@
         "forma_de_pago": "",
         "zona_de_referencia": "",
         "rubro": "Libreria",
-        "imagen":"logoEmp/4.jpg"
+        "imagen":"logoEmp/4.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 6,
@@ -63,7 +84,12 @@
         "forma_de_pago": "",
         "zona_de_referencia": "Moreno Centro",
         "rubro": "alimentacion",
-        "imagen":"logoEmp/5.jpg"
+        "imagen":"logoEmp/5.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 7,
@@ -74,7 +100,12 @@
         "forma_de_pago": "",
         "zona_de_referencia": "Moreno Centro",
         "rubro": "juguetes",
-        "imagen":"logoEmp/6.jpg"
+        "imagen":"logoEmp/6.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 8,
@@ -85,7 +116,12 @@
         "forma_de_pago": "",
         "zona_de_referencia": "",
         "rubro": "herramientas",
-        "imagen":"logoEmp/7.jpg"
+        "imagen":"logoEmp/7.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 9,
@@ -96,7 +132,12 @@
         "forma_de_pago": "",
         "zona_de_referencia": "San miguel",
         "rubro": "deporte",
-        "imagen":"logoEmp/8.jpg"
+        "imagen":"logoEmp/8.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 10,
@@ -107,7 +148,12 @@
         "forma_de_pago": "Contado",
         "zona_de_referencia": "",
         "rubro": "transporte",
-        "imagen":"logoEmp/9.jpg"
+        "imagen":"logoEmp/9.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 11,
@@ -118,7 +164,12 @@
         "forma_de_pago": "Tarjeta de crédito",
         "zona_de_referencia": "Muñiz",
         "rubro": "inmobiliario",
-        "imagen":"logoEmp/10.jpg"
+        "imagen":"logoEmp/10.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 12,
@@ -129,7 +180,12 @@
         "forma_de_pago": "Tarjeta de crédito, tarjeta de débito",
         "zona_de_referencia": "San miguel",
         "rubro": "alimentacion",
-        "imagen":"logoEmp/11.jpg"
+        "imagen":"logoEmp/11.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 13,
@@ -140,7 +196,13 @@
         "forma_de_pago": "Tarjeta de crédito, contado",
         "zona_de_referencia": "Muñiz",
         "rubro": "belleza",
-        "imagen":"logoEmp/12.jpg"
+        "imagen":"logoEmp/12.jpg",
+        "visivilidad_Direccion":true,
+        "coordenada_X": -34.523174, 
+        "cooredena_Y": -58.702654,
+        "Horario": "martes a domingo de 10 am a 20 pm, lunes cerrado"
+
+
     },
     {
         "id_propietario": 14,
@@ -151,7 +213,12 @@
         "forma_de_pago": "Tarjeta de crédito",
         "zona_de_referencia": "San miguel",
         "rubro": "servdigitales",
-        "imagen":"logoEmp/13.jpg"
+        "imagen":"logoEmp/13.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 15,
@@ -162,7 +229,13 @@
         "forma_de_pago": "Contado",
         "zona_de_referencia": "San miguel",
         "rubro": "belleza",
-        "imagen":"logoEmp/14.jpg"
+        "imagen":"logoEmp/14.jpg",
+        "visivilidad_Direccion":true,
+        "coordenada_X": -34.522658,
+        "cooredena_Y":  -58.702127,
+        "Horario": "lunes a viernes de 9 am a 18 pm, sabado y domingo cerrado"
+
+
     },
     {
         "id_propietario": 16,
@@ -173,7 +246,12 @@
         "forma_de_pago": "Contado, tarjetas",
         "zona_de_referencia": "San miguel",
         "rubro": "alimentacion",
-        "imagen":"logoEmp/15.jpg"
+        "imagen":"logoEmp/15.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 17,
@@ -184,7 +262,12 @@
         "forma_de_pago": "Contado",
         "zona_de_referencia": "San miguel",
         "rubro": "belleza",
-        "imagen":"logoEmp/16.jpg"
+        "imagen":"logoEmp/16.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 18,
@@ -195,7 +278,12 @@
         "forma_de_pago": "Contado",
         "zona_de_referencia": "Muñiz",
         "rubro": "servdigitales",
-        "imagen":"logoEmp/17.jpg"
+        "imagen":"logoEmp/17.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 19,
@@ -206,7 +294,12 @@
         "forma_de_pago": "transferencia",
         "zona_de_referencia": "San miguel",
         "rubro": "alimentacion",
-        "imagen":"logoEmp/18.jpg"
+        "imagen":"logoEmp/18.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     },
     {
         "id_propietario": 20,
@@ -217,7 +310,12 @@
         "forma_de_pago": "Tarjeta de crédito",
         "zona_de_referencia": "Los Polvorines",
         "rubro": "repuestos",
-        "imagen":"logoEmp/19.jpg"
+        "imagen":"logoEmp/19.jpg",
+        "visivilidad_Direccion":true,
+        "coordenada_X": -34.519743,
+        "cooredena_Y": -58.700427,
+        "Horario": "lunes a vierne de 9 am a 13 pm ~ 15 pm a 18 pm, sabado de 10 am a 14 pm, domingo cerrado"
+
     },
     {
         "id_propietario": 21,
@@ -228,6 +326,45 @@
         "forma_de_pago": "Tarjeta de crédito, contado",
         "zona_de_referencia": "San miguel",
         "rubro": "mascotas",
-        "imagen":"logoEmp/20.jpg"
+        "imagen":"logoEmp/20.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
+    },
+    {
+        "id_propietario": 22,
+        "nombre": "Flete YA!",
+        "descripcion": "flete, traslados, repartos, y mas",
+        "contacto": "flete.ya@yahoo.com.ar",
+        "red_social": "instagram: @fleteYa! ",
+        "forma_de_pago": "Tarjeta de crédito, contado",
+        "zona_de_referencia": "San miguel",
+        "rubro": "transporte",
+        "imagen":"logoEmp/21.jpg",
+        "visivilidad_Direccion":false,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": ""
+
     }
+    ,
+    {
+        "id_propietario": 23,
+        "nombre": "De todo para tu hogar!",
+        "descripcion": "de todo para tu hogar, ofrece artículos para su hogar, cocina y más...",
+        "contacto": "+51 983 127 993",
+        "red_social": "facebook: @DETODOPARATUHOGAR! ",
+        "forma_de_pago": "Tarjeta de crédito, contado",
+        "zona_de_referencia": "San miguel",
+        "rubro": "hogar",
+        "imagen":"logoEmp/22.jpg",
+        "visivilidad_Direccion":true,
+        "coordenada_X": 0,
+        "cooredena_Y": 0,
+        "Horario": "lunes a viernes de 9 am a 17 pm, sabado y domingo cerrado"
+
+    }
+
 ]

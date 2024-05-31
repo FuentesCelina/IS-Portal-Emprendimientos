@@ -1,8 +1,3 @@
-const saveButton = document.getElementById('formulario');
-saveButton.addEventListener('submit',function(event){
-    guardarDatos(event);
-});
-
 const cancelBoton = document.getElementById('cancelarRegistro');
 cancelBoton.addEventListener('click', function() {
     window.location.href = "index.html"
