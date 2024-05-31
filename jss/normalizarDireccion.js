@@ -1,6 +1,20 @@
 
 function normalizarDireccion() {
     const direccion = document.getElementById('direccion').value.trim();
+
+    const avisoDatosIncompletos =  document.getElementById('avisoDatosIncompletos');
+    
+    const direccionValida = /^.+\s+\d+,\s+.+$/;
+
+    if(!direccion || !direccionValida.test(direccion)){
+
+        avisoDatosIncompletos.style.display = 'block';
+        avisoDatosIncompletos.textContent = 'Verifique que la direccion ingreasada tenga este formato "calle falsa 123, Municipio"';
+        return;
+    }else{
+        avisoDatosIncompletos.style.display = 'none';
+    }
+
     const url = `https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=${encodeURIComponent(direccion)}`;
 
     fetch(url)
@@ -27,7 +41,13 @@ function mostrarResultados(data, campo) {
 
             // coordenadas
             if (direccion.coordenadas && direccion.coordenadas.x && direccion.coordenadas.y) {
-                elementoLista.textContent += ` - Coordenadas: X ${direccion.coordenadas.x}, Y ${direccion.coordenadas.y}`;
+                //elementoLista.textContent += ` - Coordenadas: X ${direccion.coordenadas.x}, Y ${direccion.coordenadas.y}`;
+                //las coordenadas las devuelve al reves
+                x_cooredenada = direccion.coordenadas.y;
+                y_cooredenada = direccion.coordenadas.x;
+
+                console.log("Cooredenada X: "+ x_cooredenada+"Coordena Y: "+y_cooredenada );
+            
             }
             elementoLista.style.cursor = 'pointer';
             elementoLista.onclick = () => {
