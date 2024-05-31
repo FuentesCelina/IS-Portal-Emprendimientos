@@ -1,12 +1,13 @@
 
-function normalizarDireccion(dir) {
-    const direccion = document.getElementById(dir).value.trim();
+function normalizarDireccion() {
+    const direccion = document.getElementById('direccion').value.trim();
     const url = `https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=${encodeURIComponent(direccion)}`;
 
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            mostrarResultados(data, dir);
+            console.log(data);
+            mostrarResultados(data, 'direccion');
         })
         .catch(error => {
             console.error('Error:', error);

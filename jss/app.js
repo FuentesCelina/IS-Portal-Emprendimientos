@@ -53,8 +53,6 @@ function crearNuevoEmp(emprendimientos) {
         /*Evento del boton para ver mapa */
         nuevoBoton.addEventListener('click', function () {
             window.location.href = "leaflet.html";
-        
-
         });
 
         nuevoDiv.appendChild(infoDiv);

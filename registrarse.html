@@ -29,7 +29,7 @@
             <label for="direccion">Direccion:</label>
             <input type="text" id="direccion" placeholder="ejemplo: Calle falsa 123, Municipio" name="direccion"
                 required>
-            <button type="button" onclick="normalizarDireccion('direccion')">Buscar dirección</button>
+            <button type="button" onclick="normalizarDireccion()">Buscar dirección</button><br>
 
             <div id="resultadosDireccion"></div>
 
@@ -40,51 +40,6 @@
 
             <button id="cancelarRegistro" type="submit">Cancelar registro </button><br><br>
            
-            <h1 for="nombre">Datos emprendimientos:</h1>
-
-
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre_emprendimiento" name="nombre" required></textarea>
-
-            <label for="descripcion">Descripción:</label>
-            <textarea type="text" id="descripcion" name="descripcion" required></textarea>
-
-            <label for="contacto">Contacto:</label>
-            <input type="text" id="contacto_emprendimiento" name="contacto" required></textarea>
-
-            <label for="redSocial">Red social:</label>
-            <input type="text" id="red_social" name="redSocial" required></textarea>
-
-            <label for="formaDePago">Forma de pago:</label>
-            <input type="text" id="forma_de_pago" name="FormaDePago" required></textarea>
-
-            <label for="zonaRefenrcia">Zona de referencia:</label>
-            <input type="text" id="zonaReferencia" name="zonaReferencia" required></textarea>
-            <!--<button type="submit">Normalizar direccion</button>ACA CREO QUE NO ES NECESARIO NORMALIZAR-->
-
-
-            <label for="rubro">Rubro:</label>
-            <select id="categoria" name="categoria" required>
-                <option value="electronica">Electrónica</option>
-                <option value="ropa">Ropa</option>
-                <option value="alimentacion">Alimentación</option>
-                <option value="hogar">Hogar</option>
-                <option value="libros">Libros</option>
-                <option value="juguetes">Juguetes</option>
-                <option value="belleza">Belleza</option>
-                <option value="deportes">Deportes</option>
-                <option value="muebles">Muebles</option>
-                <option value="herramientas">Herramientas</option>
-                <option value="transporte">Transporte</option>
-                <option value="inmobiliario">Inmobiliario</option>
-                <option value="servdigitales">Servicios digitales</option>
-                <option value="repuestos">Repuestos</option>
-                <option value="mascotas">Mascotas</option>
-            </select>
-
-            <button type="submit">Guardar Datos </button>
-            <button id="cancelarRegistro" type="submit">Cancelar registro </button>
-            <h3 id="mensaje"></h3>
         </form>
         
     </section>
