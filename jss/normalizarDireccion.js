@@ -20,7 +20,6 @@ function normalizarDireccion() {
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            console.log(data);
             mostrarResultados(data, 'direccion');
         })
         .catch(error => {
