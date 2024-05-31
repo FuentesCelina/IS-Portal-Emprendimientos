@@ -1,4 +1,4 @@
-#botonRegistrarse {
+.botonRegistrarse {
     padding: 20px 20px; 
     font-size: 20px; /* zoom*/
     background-color: #ff9a16;
@@ -11,9 +11,10 @@
     margin-left: 200px;
     margin-right: 0px;
     float: left; 
+    text-decoration: none;
 }
 
-#botonRegistrarse:hover {
+.botonRegistrarse:hover {
     background-color: #90aece;
 }
 
