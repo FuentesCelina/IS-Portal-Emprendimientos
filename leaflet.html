@@ -3,6 +3,7 @@
     <head>
         <title>Ubicacion de emprendimiento</title>
         <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/registrarse.css">
 	    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
     </head>
@@ -13,8 +14,15 @@
         <div class="container">
             <!--espacio para mostrar la info del emprendimiento-->
         </div>
-
-
+        <br><br>
+        <button id="volverBusqueda" type="submit">Volver a buscar</button>
+        
+        <script>
+        const volverBusqueda = document.getElementById('volverBusqueda');
+        volverBusqueda.addEventListener('click', function () {
+        window.location.href = "index.html"
+        });
+        </script>
 
     </body>
 
