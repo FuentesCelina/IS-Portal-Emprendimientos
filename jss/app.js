@@ -28,33 +28,18 @@ function crearNuevoEmp(emprendimientos) {
         nuevoH2.textContent = emprendimientos[i].nombre;
         nuevoH2.id = "nombre";
 
-        var nuevoH31 = document.createElement('h3');
-        nuevoH31.textContent = emprendimientos[i].descripcion;
-        nuevoH31.id = "descripcion";
-
-        var nuevoH32 = document.createElement('h3');
-        nuevoH32.textContent = emprendimientos[i].contacto;
-        nuevoH32.id = "contacto";
-
-        var nuevoH33 = document.createElement('h3');
-        nuevoH33.textContent = emprendimientos[i].red_social;
-        nuevoH33.id = "red_social";
-
         var nuevoimg = document.createElement('img');
         nuevoimg.src = emprendimientos[i].imagen;
         nuevoimg.id = "imagen";
 
         infoDiv.appendChild(nuevoH2);
         infoDiv.appendChild(nuevoimg);
-        infoDiv.appendChild(nuevoH31);
-        infoDiv.appendChild(nuevoH32);
-        infoDiv.appendChild(nuevoH33);
 
         /*Evento del boton para ver mapa */
         nuevoBoton.addEventListener('click', function () {
             localStorage.setItem("latitud", emprendimientos[i].coordenada_X);
             localStorage.setItem("longitud", emprendimientos[i].coordenada_Y);
-            localStorage.setItem("id_emp",emprendimientos[i].id);
+            localStorage.setItem("id_emp",emprendimientos[i].id_propietario);
             window.location.href = "leaflet.html";
         });
 

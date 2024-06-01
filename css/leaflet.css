@@ -1,4 +1,71 @@
+body{
+    margin: 0%;
+}
+.container{
+    background-color: rgb(17, 8, 8);
+    display: flex;
+    height: 16.9cm;
+}
 #map { 
-    width: 800px;
-    height: 600px; 
+    width: 700px;
+    height: 570px; 
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 1cm;
+    border-radius: 30px 40px; 
+}
+.emprendimiento{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20cm;
+    padding: 2cm;
+    padding-top: 12px;
+}
+
+#imagen{
+    text-align: center;
+    width: auto;
+    height: 7cm;
+    display: inline-block;
+    border-radius: 30px 40px;
+}
+
+#nombre{
+    color: blanchedalmond;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.label{
+    padding-top: 8px;
+    color: blanchedalmond;
+    font-size: 18px;
+    display: block;
+    text-align:left;
+}
+
+#descripcion{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding-top: 8px;
+}
+.button{
+    background-color: #ff9a16;
+    position: absolute;
+    bottom: 10px; /* Ajusta la posición vertical según sea necesario */
+    left: 70%; /* Centra el botón horizontalmente */
+    transform: translateX(-30%);
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 10px; 
+    font-size: 15px;
+}
+
+.boton:hover {
+    background-color: #90aece;
 }
