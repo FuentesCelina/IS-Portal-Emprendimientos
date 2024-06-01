@@ -91,6 +91,7 @@ function mostrarInfoEmprendimiento(emprendimientos) {
                 noHayDire.id="noHayDire";
                 noHayDire.className="label";
                 cont_emp.appendChild(noHayDire);
+                map.remove();
             }
 
             break;
