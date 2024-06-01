@@ -38,6 +38,9 @@ function crearNuevoEmp(emprendimientos) {
 
         /*Evento del boton para ver mapa */
         nuevoBoton.addEventListener('click', function () {
+            localStorage.removeItem('latitud');//limpio el localStorage para no obtener datos viejos
+            localStorage.removeItem('longitud');
+            
             localStorage.setItem("latitud", emprendimientos[i].coordenada_X);
             localStorage.setItem("longitud", emprendimientos[i].coordenada_Y);
             localStorage.setItem("id_emp",emprendimientos[i].id_propietario);
@@ -50,6 +53,7 @@ function crearNuevoEmp(emprendimientos) {
         id=emprendimientos[i].id_propietario;
         
     }
+    localStorage.removeItem('ultimoId');//limpio el localStorage para no obtener datos viejos
     localStorage.setItem("ultimoId",id);
 }
 
