@@ -40,10 +40,12 @@ function crearNuevoEmp(emprendimientos) {
         nuevoBoton.addEventListener('click', function () {
             localStorage.removeItem('latitud');//limpio el localStorage para no obtener datos viejos
             localStorage.removeItem('longitud');
+            localStorage.removeItem('visivilidad_Direccion');
             
             localStorage.setItem("latitud", emprendimientos[i].coordenada_X);
             localStorage.setItem("longitud", emprendimientos[i].coordenada_Y);
             localStorage.setItem("id_emp",emprendimientos[i].id_propietario);
+            localStorage.setItem("dire_visible",emprendimientos[i].visivilidad_Direccion);
             window.location.href = "leaflet.html";
         });
 

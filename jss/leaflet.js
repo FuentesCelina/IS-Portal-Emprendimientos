@@ -84,6 +84,15 @@ function mostrarInfoEmprendimiento(emprendimientos) {
             cont_emp.appendChild(zona_de_referencia);
             cont_emp.appendChild(horario);
 
+            var direccionVisible = localStorage.getItem("dire_visible");
+            if (direccionVisible == 'false') { 
+                var noHayDire = document.createElement('label');
+                noHayDire.textContent = " < NO HAY INFORMACION DE UBICACIÓN PARA MOSTRAR >";
+                noHayDire.id="noHayDire";
+                noHayDire.className="label";
+                cont_emp.appendChild(noHayDire);
+            }
+
             break;
         }
     }
