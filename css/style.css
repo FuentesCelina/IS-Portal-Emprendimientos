@@ -67,3 +67,26 @@ header
     padding: 20px;
     font-family: "Domine", serif;
 }
+.textoDestacados {
+    color: white;
+    font-size: 26px;
+    text-shadow: 5px 5px 50px black, 0 0 25px black, 0 0 5px black;
+}
+
+.container_dest {
+    font-size: 20px;
+    text-align: center;
+    max-width: 14cm;
+    height: 5px; 
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #ff9a16, #90aece);
+    box-shadow: 10px 10px 15px #000000;
+}
