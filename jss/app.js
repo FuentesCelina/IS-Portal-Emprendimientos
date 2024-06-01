@@ -6,6 +6,7 @@ function crearNuevoEmp(emprendimientos) {
     divs.forEach(function (div) {
         div.remove();
     });
+    var id;
     for (let i = 0; i < emprendimientos.length; i++) {
         var nuevoDiv = document.createElement('div');
         var nuevoBoton = document.createElement('button');
@@ -46,7 +47,10 @@ function crearNuevoEmp(emprendimientos) {
         nuevoDiv.appendChild(infoDiv);
         nuevoDiv.appendChild(nuevoBoton);
         container.appendChild(nuevoDiv);
+        id=emprendimientos[i].id_propietario;
+        
     }
+    localStorage.setItem("ultimoId",id);
 }
 
 function cargarJSONCol() {/*No sé si está bien cargarlos,pero se necesita el ultimo id */
